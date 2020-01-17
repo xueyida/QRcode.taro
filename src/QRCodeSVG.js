@@ -1,8 +1,10 @@
-import Taro, { Component } from '@tarojs/taro';
+import Taro from '@tarojs/taro';
+import Nerv from "nervjs";
+import AtComponent from './common/component';
 import QRCodeImpl from 'qr.js/lib/QRCode';
 import ErrorCorrectLevel from 'qr.js/lib/ErrorCorrectLevel';
 
-class QRCodeSVG extends Component {
+class QRCodeSVG extends AtComponent {
 
   convertStr(str){
     let out = '';

@@ -1,10 +1,11 @@
 import Taro, { Component } from '@tarojs/taro';
+import Nerv from "nervjs";
 import { View }  from '@tarojs/components';
+import AtComponent from './common/component';
 import QRCodeSVG from './QRCodeSVG';
 import QRCodeCanvas from './QRCodeCanvas';
 
-
-class QRCode extends Component {
+class QRCode extends AtComponent {
   state={
     defaultProps:{
       size: 128,
