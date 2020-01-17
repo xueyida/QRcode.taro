@@ -1,6 +1,6 @@
 {
   "name": "qrcode.taro",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "qrcode in taro",
   "main": "src/index.js",
   "scripts": {
