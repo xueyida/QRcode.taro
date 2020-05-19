@@ -1,6 +1,6 @@
 <h1 align="center">QRCode.Taro</h1>
 
-Taro 二维码组件，根据QRcode.js封装
+Taro 二维码组件，根据QRcode.js封装（版本为1.2.4，可能不能兼容之后的版本）
 
 
 ## 安装
